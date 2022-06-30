@@ -1,29 +1,19 @@
-import logo from './logo.svg';
+/* eslint-disable react/prefer-stateless-function */
+import React from 'react';
+import Calculator from './components/calculator';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit
-          {' '}
-          <code>src/App.js</code>
-          {' '}
-          and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div className="app-containter">
+        <>
+          <h1>Calculator</h1>
+          <Calculator />
+        </>
+      </div>
+    );
+  }
 }
 
 export default App;
