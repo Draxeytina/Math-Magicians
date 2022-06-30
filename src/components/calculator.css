@@ -13,7 +13,7 @@ body {
 
 button {
   font-size: 20px;
-  border-style: none;
+  border-style: 1px solid white;
   margin: 1px;
 }
 
@@ -27,14 +27,8 @@ button {
 
 .display {
   display: flex;
+  justify-content: flex-end;
   background-color: lightgrey;
-}
-
-.displayScreen {
-  width: 100%;
-  border-style: none;
-  background-color: lightgrey;
-  text-align: right;
   padding: 10px 23px;
   font-size: 22px;
 }
