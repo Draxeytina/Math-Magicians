@@ -1,6 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import { fireEvent } from '@testing-library/dom';
-// import renderer from 'react-test-renderer';
 import App from '../App';
 import Calculator from '../components/calculator';
 
