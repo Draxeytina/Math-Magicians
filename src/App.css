@@ -4,3 +4,9 @@ h1 {
   margin-bottom: 8px;
   font-size: large;
 }
+
+.App {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 225px;
+}
