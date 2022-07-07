@@ -98,3 +98,13 @@ describe('Test home page component', () => {
     expect(paragraph).toBeInTheDocument();
   });
 });
+
+describe('Check Navlinks', () => {
+  test('check quote navigation link', () => {
+    render(<App />);
+    const navLink = screen.getByText('Quote');
+    fireEvent.click(navLink);
+    const paragraph = screen.getByText('Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding. - William Paul Thrurson');
+    expect(paragraph).toBeInTheDocument();
+  });
+});
