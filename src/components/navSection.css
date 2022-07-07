@@ -1,0 +1,102 @@
+* {
+  list-style: none;
+}
+
+h1 {
+  font-size: 35px;
+}
+.NavButton {
+  background: none;
+  border: none;
+}
+
+.navopen {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav-wrap-open {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.logo-open {
+  display: none;
+}
+
+.title-open {
+  display: unset;
+}
+
+.navbtn-open {
+  position: absolute;
+  right: 0;
+  margin: 25px;
+  border: none;
+  background: none;
+  font-size: 25px;
+}
+
+.ul-open {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul-open li {
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+.ul-close li {
+  font-size: 25px;
+}
+
+.navclose {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 100px;
+}
+
+.nav-wrap-close {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.active {
+  font-size: 25px;
+}
+
+.title-close {
+  display: none;
+}
+
+.ul-close {
+  display: none;
+}
+
+.navbtn-close {
+  background: none;
+  border: none;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 760px) {
+  .navbtn-close {
+    display: none;
+  }
+
+  .ul-close {
+    display: flex;
+    gap: 16px;
+  }
+}
