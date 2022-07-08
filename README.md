@@ -8,6 +8,10 @@ A Single Page App (SPA) for mathematicians that allows simple calculations and g
 ## See Project 🌐
 Follow the link to view the website:
 
+  https://draxey-math-magicians.herokuapp.com
+OR
+  https://deploy-preview-7--clever-nasturtium-859674.netlify.app
+
 
 ## Getting Started
 You may setup the project on your local machine using the following steps:
